@@ -52,6 +52,7 @@ if arquivo is not None:
     ax.set_thetagrids(np.degrees(angles[:-1]), labels, fontsize=12)
     ax.set_title(f"Desempenho de: {aluno}", fontsize=16, pad=35, color="#333333")
     ax.grid(True, linestyle='--', linewidth=0.5)
+    
     ax.spines['polar'].set_color('#444')
     ax.spines['polar'].set_linewidth(1)
 
